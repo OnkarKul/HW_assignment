@@ -1,0 +1,225 @@
+2022-01-30 01:27:26,297 INFO you pass correct list: [1, 2, 3, 4, 5, 6]
+2022-01-30 01:28:25,128 ERROR You need to pass list
+2022-01-30 01:30:07,173 INFO list_reverse started
+2022-01-30 01:30:12,524 INFO Your list: [1, 2, 3, 4, 5, 6, 7] and reverse list : [7, 6, 5, 4, 3, 2, 1]
+2022-01-30 01:30:12,524 INFO list_reverse end
+
+2022-01-30 01:30:56,960 INFO list_reverse started
+2022-01-30 01:31:05,004 ERROR 'set' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\TML_User\Desktop\python\practice\List_methods.py", line 29, in list_reverse
+    logging.info('Your list: %s and reverse list : %s', my_list,my_list[::-1])
+TypeError: 'set' object is not subscriptable
+2022-01-30 01:31:05,007 INFO list_reverse end
+2022-01-30 01:31:40,451 INFO list_append started
+2022-01-30 01:31:56,886 INFO Your old list is [1, 2.2, (3+4j), 'onkar'] and updated list is [1, 2.2, (3+4j), 'onkar', 'danger']
+2022-01-30 01:31:56,886 INFO list_append end
+2022-01-30 01:32:16,981 INFO list_append started
+2022-01-30 01:32:21,918 INFO Your old list is [1, 2.2, (3+4j), 'onkar'] and updated list is [1, 2.2, (3+4j), 'onkar', 21323]
+2022-01-30 01:32:21,919 INFO list_append end
+2022-01-30 01:33:14,678 INFO list_append started
+2022-01-30 01:33:32,657 INFO list_append end
+2022-01-30 01:33:44,391 INFO List inserting start
+2022-01-30 01:33:56,600 INFO your old list [9, 8, 7, 6, 5, 4, 3, 2, 1] and after inserting your list is [9, 8, 7, 123, 6, 5, 4, 3, 2, 1]
+2022-01-30 01:33:56,600 INFO list inserting end
+2022-01-30 01:35:13,757 INFO List sorting start
+2022-01-30 01:35:13,757 INFO your old list [9, 8, 7, 6, 5, 4, 3, 2, 1] and sorted list is [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2022-01-30 01:35:13,757 INFO list sorting end
+2022-01-30 01:36:22,817 INFO List inserting start
+2022-01-30 01:36:25,930 INFO your old list [9, 8, 7, 6, 5, 4, 3, 2, 1] and after inserting your list is [9, 8, 123, 7, 6, 5, 4, 3, 2, 1]
+2022-01-30 01:36:25,930 INFO list inserting end
+2022-01-30 01:37:13,773 INFO List inserting start
+2022-01-30 01:37:16,979 INFO index= 2
+2022-01-30 01:37:16,979 INFO your old list [9, 8, 7, 6, 5, 4, 3, 2, 1] and after inserting your list is [9, 8, 123, 7, 6, 5, 4, 3, 2, 1]
+2022-01-30 01:37:16,979 INFO list inserting end
+2022-01-30 01:37:46,483 INFO List inserting start
+2022-01-30 01:37:49,254 INFO index= 188
+2022-01-30 01:37:49,254 INFO your old list [9, 8, 7, 6, 5, 4, 3, 2, 1] and after inserting your list is [9, 8, 7, 6, 5, 4, 3, 2, 1, 123]
+2022-01-30 01:37:49,255 INFO list inserting end
+2022-01-30 01:38:45,978 INFO List extent start
+2022-01-30 01:38:45,978 INFO Input list are [1, 2, 3] and [4, 5, 6]
+2022-01-30 01:38:45,978 INFO your old list are [1, 2, 3] & [4, 5, 6] and extended list is [1, 2, 3, 4, 5, 6]
+2022-01-30 01:38:45,978 INFO list extent end
+2022-01-30 01:39:20,719 INFO List extent start
+2022-01-30 01:39:20,719 INFO Input list are [1, 2, 3] and (4, 5, 6)
+2022-01-30 01:39:20,719 INFO your old list are [1, 2, 3] & (4, 5, 6) and extended list is [1, 2, 3, 4, 5, 6]
+2022-01-30 01:39:20,719 INFO list extent end
+2022-01-30 01:40:43,871 INFO List extent start
+2022-01-30 01:40:43,871 INFO Input list are [1, 2, 3] and {4, 5, 6}
+2022-01-30 01:40:43,871 INFO your old list are [1, 2, 3] & {4, 5, 6} and extended list is [1, 2, 3, 4, 5, 6]
+2022-01-30 01:40:43,871 INFO list extent end
+2022-01-30 01:42:39,613 INFO List extent start
+2022-01-30 01:42:39,614 INFO Input list are [1, 2, 3] and {4, 5, 6}
+2022-01-30 01:42:39,614 INFO your old list are [1, 2, 3] & {4, 5, 6} and extended list is [1, 2, 3, 4, 5, 6]
+2022-01-30 01:42:39,614 INFO list extent end
+2022-01-30 01:44:15,010 INFO List count start
+2022-01-30 01:44:31,227 INFO Input list are [9, 8, 7, 6, 5, 4, 3, 2, 1] 
+2022-01-30 01:44:31,227 INFO your list s [9, 8, 7, 6, 5, 4, 3, 2, 1] and value 6 occurrences 1 time in the list
+2022-01-30 01:44:31,228 INFO list count end
+2022-01-30 01:45:48,954 INFO List index start
+2022-01-30 01:45:54,932 INFO Input list are [9, 8, 7, 6, 5, 4, 3, 2, 1] and value is 2  
+2022-01-30 01:45:54,932 INFO your list is [9, 8, 7, 6, 5, 4, 3, 2, 1] and index of value 2  is 7 
+2022-01-30 01:45:54,932 INFO list index end
+2022-01-30 01:46:04,962 INFO List index start
+2022-01-30 01:46:07,747 INFO Input list are [9, 8, 7, 6, 5, 4, 3, 2, 1] and value is 100  
+2022-01-30 01:46:07,747 ERROR Exception occurred
+2022-01-30 01:46:07,747 ERROR 100 is not in list
+Traceback (most recent call last):
+  File "C:\Users\TML_User\Desktop\python\practice\List_methods.py", line 124, in List_index
+    count_var = list1.index(index_var)
+ValueError: 100 is not in list
+2022-01-30 01:46:07,750 INFO list index end
+2022-01-30 01:46:31,506 INFO List remove start
+2022-01-30 01:46:37,728 INFO Input list are [9, 8, 7, 6, 5, 4, 3, 2, 1] and value is 2 
+2022-01-30 01:46:37,728 INFO your list is [9, 8, 7, 6, 5, 4, 3, 2, 1] and after removing 2  your list is  [9, 8, 7, 6, 5, 4, 3, 1] 
+2022-01-30 01:46:37,729 INFO list remove end
+2022-01-30 01:47:09,662 INFO List pop start
+2022-01-30 01:47:16,935 INFO Input list are [9, 8, 7, 6, 5, 4, 3, 2, 1] and index is 100 
+2022-01-30 01:47:16,935 ERROR Exception occurred
+2022-01-30 01:47:16,935 ERROR pop index out of range
+Traceback (most recent call last):
+  File "C:\Users\TML_User\Desktop\python\practice\List_methods.py", line 164, in List_pop
+    list1.pop(pop_var)
+IndexError: pop index out of range
+2022-01-30 01:47:16,936 INFO list pop end
+2022-01-30 01:47:24,245 INFO List pop start
+2022-01-30 01:47:26,685 INFO Input list are [9, 8, 7, 6, 5, 4, 3, 2, 1] and index is 2 
+2022-01-30 01:47:26,686 INFO your list is [9, 8, 7, 6, 5, 4, 3, 2, 1] and after removing 2 th index list is [9, 8, 6, 5, 4, 3, 2, 1] 
+2022-01-30 01:47:26,686 INFO list pop end
+2022-01-30 01:48:17,021 INFO tuple count start
+2022-01-30 01:48:17,021 ERROR Exception occurred
+2022-01-30 01:48:17,021 ERROR Sorry, you suppose to pass tuple
+Traceback (most recent call last):
+  File "C:\Users\TML_User\Desktop\python\practice\Tuple_methods.py", line 14, in tuple_count
+    raise Exception("Sorry, you suppose to pass tuple")
+Exception: Sorry, you suppose to pass tuple
+2022-01-30 01:48:17,025 INFO tuple count end
+2022-01-30 01:49:12,364 INFO tuple count start
+2022-01-30 01:49:16,809 INFO Input tuple is (1, 2, 3, 4, 4, 5, 666, 6, 6, 6) and value is 666 
+2022-01-30 01:49:16,809 INFO your tuple s (1, 2, 3, 4, 4, 5, 666, 6, 6, 6) and value 666 occurrences 1 time in the list
+2022-01-30 01:49:16,809 INFO tuple count end
+2022-01-30 01:49:48,026 INFO tuple count start
+2022-01-30 01:49:51,350 INFO Input tuple is (1, 2, 3, 4, 4, 5, 666, 6, 6, 6) and value is 56 
+2022-01-30 01:49:51,350 INFO your tuple s (1, 2, 3, 4, 4, 5, 666, 6, 6, 6) and value 56 occurrences 0 time in the list
+2022-01-30 01:49:51,350 INFO tuple count end
+2022-01-30 01:50:51,338 INFO tuple index start
+2022-01-30 01:50:56,984 INFO Input tuple is (1, 2, 3, 4, 4, 5, 666, 6, 6, 6) and value is 666  
+2022-01-30 01:50:56,984 INFO your tuple is (1, 2, 3, 4, 4, 5, 666, 6, 6, 6) and index of value 666  is 6 
+2022-01-30 01:50:56,984 INFO tuple index end
+2022-01-30 01:51:24,882 INFO tuple index start
+2022-01-30 01:51:28,827 INFO Input tuple is (1, 2, 3, 4, 4, 5, 666, 6, 6, 6) and value is 234  
+2022-01-30 01:51:28,827 ERROR Exception occurred
+2022-01-30 01:51:28,827 ERROR tuple.index(x): x not in tuple
+Traceback (most recent call last):
+  File "C:\Users\TML_User\Desktop\python\practice\Tuple_methods.py", line 31, in Tuple_index
+    count_var = tuple1.index(index_var)
+ValueError: tuple.index(x): x not in tuple
+2022-01-30 01:51:28,830 INFO tuple index end
+2022-01-30 01:51:42,214 INFO tuple index start
+2022-01-30 01:51:48,445 INFO Input tuple is (1, 2, 3, 4, 4, 5, 666, 6, 6, 6) and value is ab  
+2022-01-30 01:51:48,446 ERROR Exception occurred
+2022-01-30 01:51:48,446 ERROR tuple.index(x): x not in tuple
+Traceback (most recent call last):
+  File "C:\Users\TML_User\Desktop\python\practice\Tuple_methods.py", line 31, in Tuple_index
+    count_var = tuple1.index(index_var)
+ValueError: tuple.index(x): x not in tuple
+2022-01-30 01:51:48,448 INFO tuple index end
+2022-01-30 01:53:14,705 INFO tuple index start
+2022-01-30 01:53:19,376 INFO Input tuple is (1, 2, 3, 4, 4, 5, 666, 6, 6, 6) and value is 4  
+2022-01-30 01:53:19,377 INFO your tuple is (1, 2, 3, 4, 4, 5, 666, 6, 6, 6) and index of value 4  is 3 
+2022-01-30 01:53:19,377 INFO tuple index end
+2022-01-30 01:53:37,792 INFO tuple count start
+2022-01-30 01:53:37,792 INFO Input tuple is (1, 2, 3, 4, 4, 5, 666, 6, 6, 6)
+2022-01-30 01:53:37,792 INFO size of tuple (1, 2, 3, 4, 4, 5, 666, 6, 6, 6) is 10 
+2022-01-30 01:53:37,792 INFO tuple count end
+2022-01-30 01:55:10,537 INFO set adding value start
+2022-01-30 01:55:52,550 INFO list inserting end
+2022-01-30 01:55:54,468 INFO set adding value start
+2022-01-30 01:56:00,687 INFO set {1, 2, 3, 4, 5, 6} and value is 1000
+2022-01-30 01:56:00,687 INFO your old set {1, 2, 3, 4, 5, 6} and after inserting your set is {1, 2, 3, 4, 5, 6, 1000}
+2022-01-30 01:56:00,687 INFO list inserting end
+2022-01-30 01:56:55,175 INFO set difference start
+2022-01-30 01:56:55,175 INFO sets are {1, 2, 3, 4, 5, 6} {4, 5, 6, 7, 8, 9}
+2022-01-30 01:56:55,175 INFO set difference is {1, 2, 3}
+2022-01-30 01:56:55,175 INFO set difference end
+2022-01-30 01:57:18,194 INFO set difference start
+2022-01-30 01:57:18,194 ERROR Exception occurred
+2022-01-30 01:57:18,194 ERROR Sorry, you suppose to pass sets
+Traceback (most recent call last):
+  File "C:\Users\TML_User\Desktop\python\practice\Set_methods.py", line 33, in set_difference
+    raise Exception("Sorry, you suppose to pass sets")
+Exception: Sorry, you suppose to pass sets
+2022-01-30 01:57:18,196 INFO set difference end
+2022-01-30 01:58:01,720 INFO set difference update start
+2022-01-30 01:58:01,720 INFO sets are {1, 2, 3, 4, 5, 6} {4, 5, 6, 7, 8, 9}
+2022-01-30 01:58:01,720 INFO set difference updated is {1, 2, 3}
+2022-01-30 01:58:01,720 INFO set difference update end
+2022-01-30 01:58:34,531 INFO set intersection start
+2022-01-30 01:58:34,532 INFO sets are {1, 2, 3, 4, 5, 6} {4, 5, 6, 7, 8, 9}
+2022-01-30 01:58:34,532 INFO set intersection of sets is {4, 5, 6}
+2022-01-30 01:58:34,532 INFO set intersection end
+2022-01-30 01:59:10,278 INFO set intersection update start
+2022-01-30 01:59:10,278 INFO sets are {1, 2, 3, 4, 5, 6} {4, 5, 6, 7, 8, 9}
+2022-01-30 01:59:10,278 INFO set intersection updated is {4, 5, 6}
+2022-01-30 01:59:10,278 INFO set intersection update end
+2022-01-30 01:59:31,384 INFO set intersection update start
+2022-01-30 01:59:31,384 ERROR Exception occurred
+2022-01-30 01:59:31,384 ERROR Sorry, you suppose to pass sets
+Traceback (most recent call last):
+  File "C:\Users\TML_User\Desktop\python\practice\Set_methods.py", line 86, in set_intersection_update
+    raise Exception("Sorry, you suppose to pass sets")
+Exception: Sorry, you suppose to pass sets
+2022-01-30 01:59:31,386 INFO set intersection update end
+2022-01-30 02:00:02,336 INFO set symmetric_difference start
+2022-01-30 02:00:02,336 INFO sets are {1, 2, 3, 4, 5, 6} {4, 5, 6, 7, 8, 9}
+2022-01-30 02:00:02,336 INFO set symmetric difference is {1, 2, 3, 7, 8, 9}
+2022-01-30 02:00:02,336 INFO set symmetric_difference end
+2022-01-30 02:00:19,147 INFO set symmetric_difference_update start
+2022-01-30 02:00:19,147 INFO sets are {1, 2, 3, 4, 5, 6} {4, 5, 6, 7, 8, 9}
+2022-01-30 02:00:19,148 INFO set intersection updated is {1, 2, 3, 7, 8, 9}
+2022-01-30 02:00:19,148 INFO set symmetric_difference_update end
+2022-01-30 02:00:44,507 INFO set discard start
+2022-01-30 02:00:52,641 INFO set is {1, 2, 3, 4, 5, 6, 7} and value is 5
+2022-01-30 02:00:52,641 INFO your final set is {1, 2, 3, 4, 6, 7} after discarding 5
+2022-01-30 02:00:52,641 INFO set discard end
+2022-01-30 02:01:39,987 INFO set remove start
+2022-01-30 02:01:44,507 INFO set is {33, 66, 12, 44, 22, 55} and value is 66
+2022-01-30 02:01:44,507 INFO your final set is {33, 12, 44, 22, 55} after removing 66
+2022-01-30 02:01:44,508 INFO set remove end
+2022-01-30 02:01:56,553 INFO set remove start
+2022-01-30 02:01:58,873 INFO set is {33, 66, 12, 44, 22, 55} and value is 888
+2022-01-30 02:01:58,873 ERROR Exception occurred
+2022-01-30 02:01:58,874 ERROR 888
+Traceback (most recent call last):
+  File "C:\Users\TML_User\Desktop\python\practice\Set_methods.py", line 160, in set_remove
+    set1.remove(set_val)
+KeyError: 888
+2022-01-30 02:01:58,876 INFO set remove end
+2022-01-30 02:02:43,376 INFO Dictionary get keys start
+2022-01-30 02:02:43,376 INFO Dir  is {'name': 'onkar', 'surname': 'kulkarni', 'mailID': 'abc@gmail.com', 'age': 25} and values are dict_keys(['name', 'surname', 'mailID', 'age'])
+2022-01-30 02:02:43,376 INFO Dictionary get keys end
+2022-01-30 02:03:22,669 INFO Dictionary get keys start
+2022-01-30 02:03:22,669 ERROR Exception occurred
+2022-01-30 02:03:22,669 ERROR Sorry, you suppose to pass dir
+Traceback (most recent call last):
+  File "C:\Users\TML_User\Desktop\python\practice\Dictionary_methods.py", line 18, in dir_get_keys
+    raise Exception("Sorry, you suppose to pass dir")
+Exception: Sorry, you suppose to pass dir
+2022-01-30 02:03:22,671 INFO Dictionary get keys end
+2022-01-30 02:03:49,699 INFO Dictionary get values start
+2022-01-30 02:03:49,700 INFO Dir  is {'name': 'onkar', 'surname': 'kulkarni', 'mailID': 'abc@gmail.com', 'age': 25} and values are dict_values(['onkar', 'kulkarni', 'abc@gmail.com', 25])
+2022-01-30 02:03:49,700 INFO Dictionary get values end
+2022-01-30 02:04:16,926 INFO Dictionary get item start
+2022-01-30 02:04:29,549 INFO For key =surename values is None
+2022-01-30 02:04:29,550 INFO Dictionary get item end
+2022-01-30 02:04:59,517 INFO Dictionary get item start
+2022-01-30 02:05:09,204 INFO For key =surname values is kulkarni
+2022-01-30 02:05:09,204 INFO Dictionary get item end
+2022-01-30 02:06:21,259 INFO Dictionary pop item start
+2022-01-30 02:06:31,193 INFO dir is {'name': 'onkar', 'surname': 'kulkarni', 'mailID': 'abc@gmail.com', 'age': 25} and remove key is name
+2022-01-30 02:06:31,194 INFO Final dir is  {'surname': 'kulkarni', 'mailID': 'abc@gmail.com', 'age': 25}
+2022-01-30 02:06:31,194 INFO Dictionary pop item end
+2022-01-30 02:06:51,698 INFO Dictionary update start
+2022-01-30 02:07:02,658 INFO dir is {'name': 'onkar', 'surname': 'kulkarni', 'mailID': 'abc@gmail.com', 'age': 25} and new key and value is {city :beed}
+2022-01-30 02:07:02,658 INFO Final dir is  {'name': 'onkar', 'surname': 'kulkarni', 'mailID': 'abc@gmail.com', 'age': 25, 'city': 'beed'}
+2022-01-30 02:07:02,659 INFO Dictionary update end
